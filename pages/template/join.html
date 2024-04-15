@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keywords" content="Mobile styleguide" />
+    <meta name="author" content="Mobile styleguide" />
+    <meta name="descripption" content="Mobile styleguide" />
+    <title>표준모바일 디자인가이드</title>
+    <link rel="shortcut icon" href="../../assets/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/index.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" />
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="mobile_contents">
+            <article class="mobile_conts dflx_dcol_jbet m-b-50">
+                <div>
+                    <div class="join_title">
+                        <h2>회원가입</h2>
+                        <p>Create an account to get started</p>
+                    </div>
+                    <section class="form_group">
+                        <div class="put_group">
+                            <p class="join_label m-b-8">이름</p>
+                            <input type="text" class="req_put join" placeholder="Placeholder" required />
+                        </div>
+
+                        <div class="put_group">
+                            <p class="join_label m-b-8">이메일</p>
+                            <input type="text" class="req_put join" placeholder="Placeholder" required />
+                        </div>
+                        
+                        <div class="put_group">
+                            <p class="join_label m-b-8">비밀번호</p>
+                            <input type="password" class="req_put join" placeholder="Placeholder" required />
+                            <span class="put_check put_see">
+                                <img class="img_see w24" src="../../assets/images/eye_open_24.svg" alt="image" />
+                                <img class="img_see_off w24 op04" src="../../assets/images/eye_off_24.svg" alt="image" />
+                            </span>
+                        </div>
+                        
+                        <div class="put_group">
+                            <p class="join_label m-b-8">비밀번호 확인</p>
+                            <input type="password" class="req_put join" placeholder="Placeholder" required />
+                            <span class="put_check put_see">
+                                <img class="img_see w24" src="../../assets/images/eye_open_24.svg" alt="image" />
+                                <img class="img_see_off w24 op04" src="../../assets/images/eye_off_24.svg" alt="image" />
+                            </span>
+                        </div>
+                    </section>
+                </div>
+            </article>
+        </div>
+        <footer class="footer">
+            <section class="button_zone">
+                <button type="button" class="button on"> Get start</button>
+            </section>
+        </footer>
+    </div>
+    <script type="text/javascript" src="../../assets/js/jquery.min.js"></script>
+    <script>
+        // eye button
+        $('.put_see').click(function(){
+            $(this).toggleClass('on');
+        });
+    </script>
+</body>
+</html>

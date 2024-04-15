@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="keywords" content="Mobile styleguide" />
+        <meta name="author" content="Mobile styleguide" />
+        <meta name="descripption" content="Mobile styleguide" />
+        <title>표준모바일 디자인가이드</title>
+        <link rel="shortcut icon" href="../../assets/images/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="../../assets/css/index.css" />
+        <link rel="stylesheet" type="text/css" href="../../assets/css/swiper.min.css" />
+        <script type="text/javascript" src="../../assets/js/com_ui.js"></script>
+    </head>
+
+    <body>
+        <div class="wrap">
+            <div class="">
+                <img src="../../assets/images/ready_to_go_img.png" alt="" class="w-100 h-70" />
+            </div>
+            <div class="ready_box">
+                <section class="mobile_conts m-b-50">
+                    <section class="Slide_zone">
+                        <div class="slide_wrap">
+                            <section class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="ready_slide">
+                                            <div class="ready_title">
+                                                <h2>Ready to go</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur.</br>
+                                                    Mattis sollicitudin et ipsum lorem.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="ready_slide">
+                                            <div class="ready_title">
+                                                <h2>Ready to go</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur.</br>
+                                                    Mattis sollicitudin et ipsum lorem.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="swiper-slide">
+                                        <div class="ready_slide">
+                                            <div class="ready_title">
+                                                <h2>Ready to go</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur.</br>
+                                                    Mattis sollicitudin et ipsum lorem.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="ready_slide">
+                                            <div class="ready_title">
+                                                <h2>Ready to go</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur.<br />
+                                                    Mattis sollicitudin et ipsum lorem.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="swiper-slide">
+                                        <div class="ready_slide">
+                                            <div class="ready_title">
+                                                <h2>Ready to go</h2>
+                                                <p>Lorem ipsum dolor sit amet consectetur.<br />
+                                                    Mattis sollicitudin et ipsum lorem.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="swiper-pagination"></div>
+                            </section>
+                        </div>
+
+                    </section>
+                </section>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <section class="button_zone">
+                <button type="button" class="button on"> Get start</button>
+            </section>
+        </footer>
+    </body>
+    <script type="text/javascript" src="../../assets/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.Slide_zone .swiper-container', {
+            //loop: true,
+            initialSlide: 1,
+            slidesPerView: 3,
+            spaceBetween:20,
+            pagination : {
+                el : '.swiper-pagination',
+                clickable : true, 
+            },
+            breakpoints: { 
+                992 : {
+                    slidesPerView:1,
+                    spaceBetween:10,
+                }
+            }
+        });
+    </script>
+</html>

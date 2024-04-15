@@ -1,0 +1,301 @@
+// variable
+$primary_default: #0068E6;
+$primary_hover: #0052CC;
+$primary_selected: #243CB3;
+$primary_pressed: #0048B2;
+$primary_border: #003D99;
+$primary_op12: rgba($color:$primary_default, $alpha: 0.12);
+
+$secondary_default: #63728D; 
+$secondary_hover: #515D73; 
+$secondary_selected: #243552; 
+$secondary_op12: rgba($color:$secondary_default, $alpha: 0.12);
+
+$button_focus: #72A7F5;
+$line_focus: #2D4BE0;
+$bg_select: #F2F4FA;
+
+$bg_notice_sucess: #00B87A;
+$bg_text_sucess: #00875A;
+$bg_error: #ED0008;
+
+$bg_default:#fff;
+$bg_black100: rgba(0, 0, 0, 1);
+$bg_black87: rgba(0, 0, 0, 0.87);
+$bg_black80: rgba(0, 0, 0, 0.8);
+$bg_black60: rgba(0, 0, 0, 0.6);
+$bg_black50: rgba(0, 0, 0, 0.5);
+$bg_black44: rgba(0, 0, 0, 0.44);
+$bg_black40: rgba(0, 0, 0, 0.4);
+$bg_black38: rgba(0, 0, 0, 0.38);
+$bg_black30: rgba(0, 0, 0, 0.3);
+$bg_black20: rgba(0, 0, 0, 0.2);
+$bg_gray87: rgba(255, 255, 255, 0.87);
+$bg_gray80: rgba(255, 255, 255, 0.8);
+$bg_gray60: rgba(255, 255, 255, 0.6);
+$bg_gray50: rgba(255, 255, 255, 0.5);
+$bg_gray40: rgba(255, 255, 255, 0.4);
+$bg_gray30: rgba(255, 255, 255, 0.3);
+$bg_gray38: rgba(255, 255, 255, 0.38);
+$bg_gray20: rgba(255, 255, 255, 0.2);
+$bg_gray12: rgba(255, 255, 255, 0.12);
+$bg_gray10: rgba(255, 255, 255, 0.10);
+$bg_gray06: rgba(255, 255, 255, 0.06);
+$bg_graye0: #D7DAE0;
+$bg_grayf5: #EBEDF5;
+$bg_grayfa: #F4F5FA;
+$bg_gray66: #626366;
+$bg_graya3: #9D9FA3;
+$bg_grayeb: #E1E4EB;
+$bg_grayf4: #F2F4FA;
+
+$fc_white: #ffffff;
+$fc_default: #000000;
+$fc_80: rgba(0, 0, 0, 0.8);
+$fc_87: rgba(0, 0, 0, 0.87);
+$fc_60: rgba(0, 0, 0, 0.6);
+
+//flex
+@mixin dflx{
+    display: flex;
+}
+@mixin dflx_as {
+    display: flex;
+    align-items: flex-start;
+}
+@mixin dflx_ac {
+    display: flex;
+    align-items: center;
+}
+@mixin dflx_ae {
+    display: flex;
+    align-items: flex-end;
+}
+@mixin dflx_jbet {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin dflx_jard {
+    display: flex;
+    justify-content: space-around;
+}
+@mixin dflx_jstart{
+    display: flex;
+    justify-content: flex-start;
+}
+@mixin dflx_jcent{
+    display: flex;
+    justify-content: center;
+}
+@mixin dflx_jend{
+    display: flex;
+    justify-content: flex-end;
+}
+@mixin dflx_ac_jard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+@mixin dflx_as_jcent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+@mixin dflx_ac_jcent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin dflx_ae_jcent {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+@mixin dflx_as_jbet {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+@mixin dflx_ac_jbet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin dflx_ae_jbet {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+@mixin dflx_ac_jend {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+@mixin flx_wrap {
+    flex-wrap: wrap;
+}
+@mixin flx_nowrap {
+    flex-wrap: nowrap;
+}
+@mixin dflx_column {
+    display: flex;
+    flex-direction: column;
+}
+@mixin dflx_column_jbet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+// font
+@mixin fs_24_bold {
+    font-size: 24px;
+    font-weight: 700;
+}
+@mixin fs_16_medium {
+    font-size: 16px;
+    font-weight: 500;
+}
+@mixin fs_16_regular {
+    font-size: 1rem;
+    font-weight: 400;
+}
+@mixin fs_16_medium_bk87 {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.87);
+}
+@mixin fs_16_bk87 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+}
+@mixin fs_14_medium {
+    font-size: 14px;
+    font-weight: 500;
+}
+@mixin fs_14 {
+    font-size: 14px;
+    font-weight: 400;
+}
+@mixin fs_14_bk87 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+}
+@mixin fs_14_bk60 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+@mixin fs_13_bold {
+    font-size: 13px;
+    font-weight: 700;
+}
+@mixin fs_13_medium {
+    font-size: 13px;
+    font-weight: 500;
+}
+@mixin fs_13 {
+    font-size: 13px;
+    font-weight: 400;
+}
+@mixin fs_12_bk60 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+@mixin fs_12_medium {
+    font-size: 12px;
+    font-weight: 500;
+}
+@mixin fs_12_regular {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+//trans_center
+@mixin ab_trans_center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+//text_overflow
+@mixin txt_ellip {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+//text_overflow
+@mixin txt_ellip {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+//backdrop-filter solve
+@mixin backFilter_solve{
+    &::before{
+        content: '';
+        z-index: -1;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(30px);
+    }
+}
+
+//trans_center
+@mixin ab_trans_center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// etc
+
+@mixin selector_el {
+    position: absolute;
+    content: '';
+}
+
+@mixin border_radius02 {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+@mixin border_radius04 {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+@mixin border_radius08 {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+@mixin border_radius10 {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+@mixin border_radius50 {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+@mixin backFilter($blur: 1.875rem){
+    -webkit-backdrop-filter: blur($blur);
+    backdrop-filter: blur($blur);
+}
